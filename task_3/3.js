@@ -39,8 +39,6 @@ sendMsg.addEventListener('click', () => {
         writeToScreen(`server: ${evt.data}`, 'flex-start');
     };
   });
-
-  //Объект соединения
   // Функции, выполняющиеся при успешном или неудачном определении геолокации
   const success = (position) => {
 	let latitude  = position.coords.latitude;
